@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <!-- Navbar will go here -->
+        <div class="header">
+            <div class="left">
+                <div class="logo">
+                    <img src="images/Vector.svg">
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle-cont">
+                    <div style="border-right: 1px solid grey;">Anywhere</div>
+                    <div style="border-right: 1px solid grey;">Any week</div>
+                    <div>Any guest </div>
+                    <span class="search"><i class="fa-solid fa-magnifying-glass" style="color: #fbfcfe;"></i></span>
+                   
+                </div>
+                <div class="search-lab">
+                    <div style="display: flex;flex-direction: column;align-items: center;">
+                        <div>Places to stay</div>
+                        <div style="border-top: 1px solid rgb(193, 190, 190);width: 2rem;"></div>
+                    </div>
+                    <div>Experiences</div>
+                    <div>Online Experiences</div>
+                </div>
+            </div>
+            <div class="right">
+                <div>Become a Host</div>
+                <div><i class="fa-solid fa-globe" style="color: white;"></i></div>
+                <div class="bar-user">
+                    <div><i class="fa-solid fa-bars" style="color: #ffffff;"></i></i></div>
+                    <div style="background-color: grey;border-radius: 50%;"><i class="fa-solid fa-user" style="color: #ccdbf5;margin: 5px;"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div style=" display: flex;align-items: center;justify-content: center; margin-bottom: 2rem;">
+            <div class="fullsearch">
+                <div>
+                    <div>Loaction</div>
+                    <input type="text" placeholder="Where you are going?" id="location">
+                </div>
+                <div>
+                    <div>Check in</div>
+                    <input type="date" placeholder="Add dates" id="checkin">
+                </div>
+                <div>
+                    <div>Check out</div>
+                    <input type="date" placeholder="Add dates" id="checkout">
+                </div>
+                <div style="padding: 0;border: none;">
+                    <div>Guests</div>
+                    <input type="number" placeholder="Add guests" id="noGuests">
+                </div>
+                <div style="padding: 0;border: none;">
+                    <button class="search" id="searchlists" style="margin-left: 0px;" ><i class="fa-solid fa-magnifying-glass" style="color: #fbfcfe;"></i></button>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Search bar, listings, and map will go here -->
+        <!-- search bar -->
+        <div class="img-div">
+            <img src="images/home.jpg" style="width: 90vw;">
+            <div class="image-text">                
+                <div>Not sure where to go? Perfect.</div>
+                <div><button class="image-button">I'm flexible</button></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="footer-links">
+                <div>
+                    <h3>Support</h3>
+                    <div>Help center</div>
+                    <div>Safety Information</div>
+                    <div>Cancellation Option</div>
+                    <div>Our COVID-19 Response</div>
+                    <div>Supporting people with disabilities</div>
+                    <div>Report a neighborhood concern</div>
+                </div>
+                <div>
+                    <h3>Community</h3>
+                    <div>Airbnb.org: disaster relief housing</div>
+                    <div>Support Afgan Refugees</div>
+                    <div>Celebrating diversity & belonging</div>
+                    <div>Combating discrimination</div>
+                    
+                </div>
+                <div>
+                    <h3>Hosting</h3>
+                    <div>Try hosting</div>
+                    <div>AirCover:protection for Hosts</div>
+                    <div>Explore hosting Resources</div>
+                    <div>Visit Community forum</div>
+                    <div>How to host responsibly</div>
+                    
+                </div>
+                <div>
+                    <h3>About</h3>
+                    <div>Newsroom</div>
+                    <div>Learn about few features</div>
+                    <div>Letter form our Founder</div>
+                    <div>Careers</div>
+                    <div>Investors</div>
+                    <div>Airbnb Luxe</div>
+                    
+                </div>
+
+
+            </div>
+            <div>
+                <div style="border-top: 1px solid rgb(182, 179, 179);padding-bottom: 1.3rem;"></div>
+                <div class="copy">
+                    <div class="left">&copy 2022 Airbnb, Inc. - Privacy - Terms - Sitemap </div>
+                    <div class="f-right">
+                        <div><i class="fa-solid fa-globe" style="color: rgb(97, 96, 96);"></i>  English (US)  $ USD</div>
+                        <div class="copy" style="gap:1rem" >
+                            <img src="images/facebook.svg">
+                            <img src="images/twitter.svg">
+                            <img src="images/instagram.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer will go here -->
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
